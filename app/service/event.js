@@ -4,7 +4,7 @@ const Service = require('egg').Service;
 
 class EventService extends Service {
   async list(state, type) {
-    const { ctx, app } = this;
+    const { app } = this;
     let url = `${app.config.server.apiUrl}/v3/events`;
     const params = [];
     if (state) {

@@ -5,7 +5,7 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
-module.exports = appInfo => {
+module.exports = () => {
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
